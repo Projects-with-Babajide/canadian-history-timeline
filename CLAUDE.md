@@ -7,11 +7,21 @@ An interactive single-page study app for the Canadian citizenship test, based on
 - GitHub: https://github.com/Projects-with-Babajide/canadian-history-timeline
 - Live (GitHub Pages): https://projects-with-babajide.github.io/canadian-history-timeline/
 
+## Source material
+All content is sourced from the official Canadian government citizenship study guide:
+- **File:** `discover.pdf` (113 pages, 11MB) — included in this repo
+- **Full title:** *Discover Canada: The Rights and Responsibilities of Citizenship*
+- **Published by:** Citizenship and Immigration Canada
+- The PDF covers: history, government, rights & responsibilities, symbols, regions, and the citizenship test process
+- When adding or editing content in `data.json`, verify facts against `discover.pdf`
+- Key history section: pages 14–27; Modern Canada: pages 24–27; People: scattered throughout
+
 ## File structure
 ```
+discover.pdf — official source guide (Citizenship and Immigration Canada)
 index.html   — full app (HTML + CSS + JS logic). No data lives here.
 data.json    — ALL content: 10 eras, 60 events, 53 people with connections
-data.md      — human-readable source reference (from the Discover Canada PDF)
+data.md      — human-readable extract from discover.pdf (reference)
 plan.md      — original build plan (9 chunks)
 CLAUDE.md    — this file
 ```
